@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif !important;
+}
+* a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #157A6E;
+  color: #E9F1F7;
+}
+.btn:hover {
+  background-color: #E9F1F7;
+  color: #02111B;
+  border: 1px solid #02111B;
+  box-shadow: 0px 0px 5px 0px;
+}
+
+.brc {
+  border: 1px solid #157A6E;
+}
+
+.colorr {
+  color: #157A6E;
+}
+
+.bi {
+  color: #157A6E;
+}
+
+.haver {
+  color: #0de8ce !important;
+}
+
+.nav-item a:hover {
+  color: #0de8ce !important;
+}
+
+.haverbtn {
+  background-color: #157A6E !important;
+}
+
+.shadow {
+  box-shadow: 0px;
+}
+.shadow:hover {
+  border: 2px solid #02111B !important;
+}
+
+.row {
+  margin-right: 0px !important;
+}
+
+header {
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  background-color: #02111B;
+}
+header a {
+  color: #E9F1F7 !important;
+}
+
+.row {
+  margin-left: 0;
+}
+
+nav {
+  margin-right: 50px;
+}
+
+#logo {
+  height: 100px;
+}
+#logo a img {
+  width: 153px;
+}
+
+.btn2 {
+  background-color: transparent;
+  border: 2px solid #157A6E;
+  font-size: 18px;
+}
+.btn2:hover {
+  background-color: #157A6E;
+  color: #E9F1F7 !important;
+}
+
+.navbar-toggler {
+  background-color: #E9F1F7;
+}
+
+.dropdown-menu {
+  background-color: #02111B !important;
+}
+
+.dropdown-item:hover {
+  color: #02111B !important;
+}
+
+.info-text {
+  color: #E9F1F7;
+  position: absolute;
+  top: 400px;
+  right: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 70%;
+  margin: 0px auto;
+}
+.info-text h1 {
+  font-size: 40px;
+}
+.info-text h3 {
+  font-size: 24px;
+}
+
+.height {
+  height: 900px;
+}
+
+.carousel-item {
+  filter: brightness(70%);
+}
+.carousel-item .position {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-control-next {
+  height: 200px;
+  right: 0px;
+  top: 400px;
+}
+
+.carousel-control-prev {
+  height: 200px;
+  left: 0px;
+  top: 400px;
+}
+
+section {
+  background-color: #E9F1F7;
+}
+
+.senka img {
+  width: 700px;
+  box-shadow: 0px 0px 25px 0px black;
+  border-radius: 5%;
+}
+
+.fix {
+  background-image: url(../img/bgg2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #E9F1F7;
+  font-size: 24px;
+}
+
+.Reviews {
+  background-color: #E9F1F7;
+}
+
+.imgmg {
+  width: 200px;
+  height: 125.4px;
+}
+
+footer {
+  background-color: #02111B;
+  color: #E9F1F7;
+}
+
+.modal-content {
+  color: #02111B;
+}
+
+.about {
+  padding: 120px 0px;
+  background-color: #E9F1F7;
+  color: #02111B;
+}
+
+.slika {
+  box-shadow: 0px 0px 20px 3px #02111B;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fixedbg {
+  background-image: url(../img/bgabout.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  filter: brightness(50%);
+}
+
+.About2 {
+  background-color: #E9F1F7;
+}
+.About2 .restaurant img {
+  box-shadow: 0px 0px 20px 3px #02111B;
+}
+
+.About3 {
+  background-image: url(../img/snowflake.png);
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #E9F1F7;
+}
+.About3 .skiing img {
+  box-shadow: 0px 0px 20px 3px #02111B;
+  border-radius: 5%;
+}
+.About3 .p-text p {
+  background-color: #E9F1F7;
+}
+
+.Reservation {
+  padding-top: 120px;
+  background-color: #E9F1F7;
+  color: #02111B;
+}
+
+#batn {
+  width: 200px;
+}
+
+.Gallery {
+  padding-top: 120px;
+  background-color: #E9F1F7;
+}
+.Gallery img {
+  filter: grayscale(0.7);
+}
+.Gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.04);
+  box-shadow: 0px 0px 15px 0px;
+  transition: 0.3s all;
+  border-radius: 2%;
+}
+
+#Author {
+  background-color: #E9F1F7;
+  padding: 120px 0px;
+}
+#Author .bord {
+  padding: 30px 0px;
+  border-top: 1px solid #02111B;
+  border-bottom: 1px solid #02111B;
+}/*# sourceMappingURL=style.css.map */
