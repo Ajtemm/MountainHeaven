@@ -64,11 +64,10 @@ nav{
 }
 .carousel-item{
     filter: brightness(70%);
-.position{
-    position: relative;
-    bottom: 400px;
-    width:2000px;
-}
+    .position{
+        height: 100vh;
+        object-fit: cover;
+    }
 }
 
 .carousel-control-next{
