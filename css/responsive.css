@@ -1,0 +1,13 @@
+@media screen and (max-width:1230px ){
+    .info-text h1{
+        font-size:30px
+    } 
+}
+@media screen and (max-width:767px){
+    .font{
+        margin: 0px !important;
+    p{
+        font-size: 20px !important;
+    }
+}
+}
