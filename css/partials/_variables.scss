@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif !important;
+    a{
+        text-decoration: none;
+    }
+}
+$bg-color:#02111B;
+$text-color:#E9F1F7;
+$third-color:#157A6E;
+.btn{
+    background-color: $third-color;
+    color:$text-color;
+    &:hover{
+        background-color: $text-color;
+        color:$bg-color;
+        border:1px solid $bg-color;
+       box-shadow: 0px 0px 5px 0px;
+    }
+}
+.brc{
+    border:1px solid $third-color;
+}
+.colorr{
+    color:$third-color;
+}
+.bi{
+    color:$third-color;
+}
+.haver{
+    color:#0de8ce !important;
+}
+.nav-item{
+    a{
+    &:hover{
+        color:#0de8ce !important;
+    }
+}
+}
+.haverbtn{
+    background-color: $third-color !important;
+}
+.shadow{
+    box-shadow: 0px;
+    &:hover{
+        border: 2px solid #02111B !important;
+    }
+}
