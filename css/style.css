@@ -129,8 +129,7 @@ nav {
 .carousel-item .position {
   height: 100vh;
   min-height: 900px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .carousel-control-next {
